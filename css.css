@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.first {
+    position:absolute;
+    top: 10px;
+}
+
+.second {
+    width: 1200px;
+    height: 600px;
+    margin: 10px auto;
+    transform: translateY(50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background-color: grey;
+    box-shadow: 7px 4px 8px 4px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.27);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.27);
+    
+}
+
+.container-num{
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+h2 {
+    margin: 10px auto 0px auto;
+    width: 120px;
+    text-align: center;
+}
+
+.input-num, .output-num {
+    width: 80%;
+    margin: 10px 28px 10px 28px;
+    border-radius: 50px;
+    text-align: right;
+    height: 80px;
+    border: 0px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 4px rgba(0,0,0,0.24);
+    word-wrap: break-word;
+    
+}
+
+.number{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    row-gap: 1em;
+    margin: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.number-btn-1, .number-btn-2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #696969;
+    border: 0px solid;
+    transform: translateX(10px);
+    font-size: 18px;
+    color: white;
+}
+
+.number-btn-1:hover{
+   box-shadow: 0px;
+   box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+    -moz-box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+}
+
+.number-btn-2:hover{
+    box-shadow: 0px;
+    box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+     -webkit-box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+     -moz-box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+ }
+
+#clear-btn{
+    grid-column: span 2;
+    width: 135px;
+}
+
+.container-output{
+    width: 350px;
+    height: 450px;
+    border-radius: 25px;
+    background-color: black;
+    color: white
+
+}
+
+
+.operator{
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    row-gap: 1em;
+    margin: 10px auto;
+}
+
+.operator-btn{
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #696969;
+    border: 0px solid;
+    transform: translateX(20px);
+    font-size: 18px;
+    color: white;
+
+}
+
+.operator-btn:hover{
+    box-shadow: 0px;
+    box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+     -webkit-box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+     -moz-box-shadow: 5px 5px 11px 4px rgba(0,0,0,0.24);
+ }
